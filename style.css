@@ -1,0 +1,120 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    width: 100vw;
+    color: black;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: coral;
+    display: flex;
+    flex-basis: 40%;
+    gap: 3%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header> h1{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: white;
+    letter-spacing: 5px;
+    position: relative;
+    right: 100px;
+}
+
+
+header > nav > ul{
+    display: inline-flex;
+   gap: 10%;
+}
+
+header > nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+header > nav > ul > li{
+    list-style-type: none;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.top{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 40%;
+    align-items: center;
+    margin: 50px;
+}
+.top > span{
+    position: relative;
+}
+.top > img{
+    width: 30%;
+    border-radius: 20px;
+} */
+
+/* @media (max-width: 270px) {
+    header{
+        justify-content: center;
+    }
+    header > h1{
+        padding-left: 200px;
+    }
+    header > nav{
+        overflow-x: hidden;
+}
+    header > nav > ul{
+        display: list-item;
+        visibility: hidden;
+    }
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.app{
+    max-width: 350px;
+    height: 500px;
+    background-color: orange;
+    translate: 500px 100px;
+    border-radius: 20px;
+    text-align: center;
+}
+.app > h2{
+    padding-top: 60px;
+    font-size: 30px;
+}
+.app > h1{
+    padding-top: 30px;
+    font-size: 100px;
+}
+button{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+   cursor: pointer; 
+    transition: 0.5s all;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
